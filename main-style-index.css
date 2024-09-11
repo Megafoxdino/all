@@ -503,7 +503,7 @@ border-radius: 15px;
 
 </style>
 <script src="https://cdn.jsdelivr.net/gh/Megafoxdino/all@master/jquery/3.3.1/jquery.min.js"></script>
-<script src="img/slide.js" type="text/javascript"></script>  
+<script src="https://cdn.jsdelivr.net/gh/Megafoxdino/all@master/img/slide.js" type="text/javascript"></script>  
 <script type="text/javascript">
 $(document).ready(function() { $curtainopen = false; $(".rope").click(function(){ $(this).blur(); if ($curtainopen == false){ $(this).stop().animate({top: '-171%' }, {queue:false, duration:350, easing:'easeOutBounce'}); $(".leftcurtain").stop().animate({width:'1px'}, 2000 ); $(".rightcurtain").stop().animate({width:'1px'},2000 ); $curtainopen = true; }else{ $(this).stop().animate({top: '-40px' }, {queue:false, duration:350, easing:'easeOutBounce'}); $(".leftcurtain").stop().animate({width:'50%'}, 2000 ); $(".rightcurtain").stop().animate({width:'51%'}, 2000 ); $curtainopen = false; } return false; }); });
 </script>
