@@ -1,63 +1,63 @@
 .stage [type="text"]{
-            position: absolute;
-            width: 100%;
-            height: 100vh;
-            z-index: 9;
-        }
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        z-index: 9;
+    }
 
-        .rope {
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 200px;
-            height: 200px;
-            cursor: pointer;
-            text-align: center;
-            font-size: 25px;
-            font-weight: bold;
-            text-shadow: 1px 1px 3px blue, 1px 1px 3px blue, -1px -1px 3px red, -1px -1px 3px black;
-            z-index: 4;
-        }
+    .rope {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px blue, 1px 1px 3px blue, -1px -1px 3px red, -1px -1px 3px black;
+        z-index: 4;
+    }
 
-        .rope img {
-            animation: bounce 1s infinite;
-            max-width: 150px;
-            width: auto;
-        }
+    .rope img {
+        animation: bounce 1s infinite;
+        max-width: 150px;
+        width: auto;
+    }
 
-        .curtain {
-            position: absolute;
-            z-index: 3;
-            top: 0;
-            width: 50.1%;
-            height: 100%;
-            transition: width .500s ease;
-            overflow: hidden;
-        }
+    .curtain {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        width: 50.1%;
+        height: 100%;
+        transition: width 0.3s ease;
+        overflow: hidden;
+    }
 
-        .leftcurtain {
-            left: 0;
-        }
+    .leftcurtain {
+        left: 0;
+    }
 
-        .rightcurtain {
-            right: 0;
-        }
+    .rightcurtain {
+        right: 0;
+    }
 
-        .curtain img {
-            display: inline-block;
-            width: 100%;
-            height: 100%;
-        }
+    .curtain img {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
 
-        @keyframes bounce {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-15px);
-            }
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
         }
+        50% {
+            transform: translateY(-15px);
+        }
+    }
 .name {
 	color: #fff;
     	margin: 6px;
